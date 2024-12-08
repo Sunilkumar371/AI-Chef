@@ -1,0 +1,173 @@
+body {
+  background: #fafaf8;
+}
+.app {
+  width: 720px;
+  height: 853px;
+  top: 70px;
+  left: 862px;
+  gap: 64px;
+  opacity: 0px;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: Fixed (720px) px;
+  height: Fixed (111px) px;
+  padding: 24px 16px 24px 16px;
+  gap: 11px;
+  justify: space-between;
+  opacity: 0px;
+  box-shadow: 0px 1px 2px 0px #0000000f;
+  box-shadow: 0px 1px 3px 0px #0000001a;
+}
+.Header > img {
+  width: 43px;
+  height: 52px;
+  gap: 0px;
+  opacity: 0px;
+  /* margin-right: 5px; */
+}
+.Header > span {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+main {
+  padding: 60px 30px 10px;
+}
+.main-Ingredient {
+  display: flex;
+  justify-content: center;
+  align-itmes: center;
+  gap: 12 px;
+  /* height: 38px; */
+}
+.Ingredient-input {
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 9px 15px;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+  margin-right: 12px;
+}
+.Ingredient-button {
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background: #141413;
+  padding: 9px 17px 9px 17px;
+  color: #fafaf8;
+  width: 168px;
+  gap: 0px;
+  opacity: 0px;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Ingredient-button:before {
+  content: "+";
+  margin-right: 10px;
+}
+.getRecipe {
+}
+.getRecipe > h2 {
+  //styleName: Display sm/Semibold;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #141413;
+  align-self: flex-start;
+}
+.getRecipe > ul {
+  //styleName: Text lg/Regular;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #475467;
+  align-self: flex-start;
+}
+.getRecipeContainer {
+  width: 594px;
+  height: 109px;
+  top: 678px;
+  left: 58px;
+  padding: 28px 41px 29px 42px;
+  gap: 24px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #f0efeb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.getRecipeContainer > h3 {
+  //styleName: text-lg/leading-6/font-medium;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #141413;
+  width: 340px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+.getRecipeContainer > p {
+  //styleName: text-sm/leading-5/font-normal;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #6b7280;
+  width: 340px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+}
+.getRecipeContainer > button {
+  width: Hug (115px) px;
+  height: Hug (38px) px;
+  top: 42px;
+  left: 438px;
+  padding: 9px 17px 9px 17px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #d17557;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  color: #fafaf8;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the children vertically */
+  align-items: center;
+}
