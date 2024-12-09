@@ -94,7 +94,6 @@ main {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #141413;
-  align-self: flex-start;
 }
 .getRecipe > ul {
   //styleName: Text lg/Regular;
@@ -106,7 +105,6 @@ main {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #475467;
-  align-self: flex-start;
 }
 .getRecipeContainer {
   width: 594px;
